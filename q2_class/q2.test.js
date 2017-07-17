@@ -3,7 +3,13 @@
 이 테스트를 통과하도록 Double을 구현하세요.
 */
 class Double {
-
+  
+  constructor(num){
+    this.num = num;
+  }
+ getValue(){
+   return 2*this.num;
+ }
 }
 
 const doubleOfTwo = new Double(2);
