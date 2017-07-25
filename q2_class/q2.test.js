@@ -19,3 +19,4 @@ describe('Q2_Double', () => test('Answer', () => {
   expect(doubleOfTwo.getValue()).toBe(4);
   expect(doubleOfThree.getValue()).toBe(6);
 }))
+
